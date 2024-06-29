@@ -9,7 +9,6 @@ public class GroundCheck : MonoBehaviour
      {
         if(col.gameObject.CompareTag("Floor")){
             isground = 1f; 
-            Debug.Log("floor");
         }
      }
      void OnTriggerExit2D(Collider2D col)

@@ -12,11 +12,11 @@ public class Dronegozoomy : MonoBehaviour
     [SerializeField] private float movementSpeed = 2f;
     [HideInInspector] public float water = 1f; 
     float firstTriggerX = 1;
-    float firstTriggerY = 1;
-    float secondTriggerX = 6;
-    float secondTriggerY = 6;
-    float margin = 4;
-    bool trigger1 = false;
+    float firstTriggerY = 5;
+    float secondTriggerX = 1;
+    float secondTriggerY = 5;
+    float margin = 8;
+    bool trigger1 = true;
     //public floats
     public float rotationSpeed = 2f;
     public float LevelUp; 
@@ -114,39 +114,16 @@ public class Dronegozoomy : MonoBehaviour
             //adds velocity to the
             rb.AddRelativeForce((Vector2.up * movementSpeed * Power * water * Time.deltaTime));
         }
-    void CheckForSame(){
-        if (trigger1 == true)
-            {
-            firstTriggerX = rb.position.x;
-            firstTriggerY = rb.position.y;
-            Debug.Log("firsty" + firstTriggerY);
-            Debug.Log("firstx" + firstTriggerX);
-            trigger1 = false;
-            }else if (trigger1 == false) {
-                secondTriggerX = rb.position.x;
-                secondTriggerY = rb.position.y;
-                Debug.Log("secondy" + secondTriggerY);
-                Debug.Log("secondx" + secondTriggerX);
-                trigger1 = true;
-            }
-    }
            //GATE DETECTION//
 //Checks if any collision with a trigger is exist//
      void OnTriggerEnter2D(Collider2D other)
     {
-        //Checks if the object it is colliding with has the tag gate//
-        if(other.gameObject.CompareTag("water"))
-        {    
-            water = .5f;  
-            FindObjectOfType<SfxManager>().Play("WaterSplash");
-            
-        }
-        
-         
         if(other.gameObject.CompareTag("Gate"))
         {
-            CheckForSame();
-            Debug.Log(rb.position); 
+            if (trigger1 == false)
+            {
+                GetFirstTrigger();
+            } 
             if (secondTriggerX !>= firstTriggerX+margin || secondTriggerX !<= firstTriggerX-margin ^ secondTriggerY !>= firstTriggerY+margin || secondTriggerY !<= firstTriggerY-margin){
             bm.charge += .5f;
             rm.gateTrigger = 1;
@@ -155,7 +132,30 @@ public class Dronegozoomy : MonoBehaviour
             gm.comboCount++;
             gateCooldownTimer = gateCooldownTimer - gateCooldownTimer;
             }    
-            
+            if (trigger1 == true){
+                GetSecondTrigger();
+            }
+        }
+        void GetFirstTrigger(){
+            firstTriggerX = rb.position.x;
+            firstTriggerY = rb.position.y;
+            Debug.Log("firsty" + firstTriggerY);
+            Debug.Log("firstx" + firstTriggerX);
+            trigger1 = true;
+        }
+        void GetSecondTrigger(){
+            secondTriggerX = rb.position.x;
+            secondTriggerY = rb.position.y;
+            Debug.Log("secondy" + secondTriggerY);
+            Debug.Log("secondx" + secondTriggerX);
+            trigger1 = false;
+        }
+        //Checks if the object it is colliding with has the tag gate//
+        if(other.gameObject.CompareTag("water"))
+        {    
+            water = .5f;  
+            FindObjectOfType<SfxManager>().Play("WaterSplash");
+            StartCoroutine("Splish");
         }
          
     }
