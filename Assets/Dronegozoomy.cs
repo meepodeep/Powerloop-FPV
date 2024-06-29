@@ -124,7 +124,7 @@ public class Dronegozoomy : MonoBehaviour
             {
                 GetFirstTrigger();
             } 
-            if (secondTriggerX !>= firstTriggerX+margin || secondTriggerX !<= firstTriggerX-margin ^ secondTriggerY !>= firstTriggerY+margin || secondTriggerY !<= firstTriggerY-margin){
+            if (secondTriggerX !>= firstTriggerX+margin || secondTriggerX !<= firstTriggerX-margin | secondTriggerY !>= firstTriggerY+margin || secondTriggerY !<= firstTriggerY-margin){
             bm.charge += .5f;
             rm.gateTrigger = 1;
             rm.fill = 0;

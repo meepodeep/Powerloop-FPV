@@ -3716,7 +3716,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Go through gates to gain combo and charge battery
+  m_text: Go through gates to gain combo and charge battery, (you cant go through
+    the same one twice)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 46c9c6d1e4e7ec34c901557d8b3cccd7, type: 2}
   m_sharedMaterial: {fileID: 6087463449307897141, guid: 46c9c6d1e4e7ec34c901557d8b3cccd7, type: 2}
@@ -3779,7 +3780,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -3.0770187, y: 0, z: 11.621765, w: -2.2756805}
+  m_margin: {x: -3.0770187, y: 0, z: 5.41687, w: -2.2756805}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
