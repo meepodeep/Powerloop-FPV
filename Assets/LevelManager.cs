@@ -16,6 +16,7 @@ public class LevelManager : MonoBehaviour
         Level[3] = 15;
         Level[4] = 20;
         Level[5] = 24;
+        Level[6] = 30;
         Level[7] = 5;
     }
 

@@ -19,7 +19,6 @@ public class Dronegozoomy : MonoBehaviour
     bool trigger1 = true;
     //public floats
     public float rotationSpeed = 2f;
-    public float isground;
     public float LevelUp; 
     public float airMode;
     public float gateCooldownTimer;
@@ -31,6 +30,7 @@ public class Dronegozoomy : MonoBehaviour
     public BatteryManager bm;
     public Animator animator;
     public GateManager gm;
+    public GroundCheck gc;
     public RadialIndicator rm;
     //it makes exist//
     void Awake()
@@ -108,7 +108,7 @@ public class Dronegozoomy : MonoBehaviour
     //Flip//
         void Flips()
         {
-            if (isground == 1f)
+            if (gc.isground == 1f)
             {
              rb.rotation = 0f;
             }
@@ -196,14 +196,14 @@ public class Dronegozoomy : MonoBehaviour
      void OnCollisionEnter2D(Collision2D col)
      {
         if(col.gameObject.CompareTag("Floor")){
-            isground = 1f; 
+            gc.isground = 1f; 
             Debug.Log("floor");
         }
      }
      void OnCollisionExit2D(Collision2D col)
      {
         if(col.gameObject.CompareTag("Floor")){
-            isground = 0f; 
+            gc.isground = 0f; 
         }
      }
     
