@@ -16,7 +16,7 @@ public class Dronegozoomy : MonoBehaviour
     float secondTriggerX = 6;
     float secondTriggerY = 6;
     float margin = 4;
-    bool trigger1 = true;
+    bool trigger1 = false;
     //public floats
     public float rotationSpeed = 2f;
     public float LevelUp; 
@@ -67,16 +67,11 @@ public class Dronegozoomy : MonoBehaviour
             animator.SetBool("Active", true);
             
         }
-               //ow my ears//
-        if (Input.GetKeyUp(KeyCode.W))
-        {
-            
-        }
         if(Input.GetKeyDown(KeyCode.Escape))
         {
             Menu();
         }
-        if(Input.GetKeyDown(KeyCode.W))
+        if(Input.GetKeyDown(KeyCode.F))
         {
             
             Flips();
@@ -191,20 +186,5 @@ public class Dronegozoomy : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
-    //GROUND DETECTION//
-    //Checks if collision with a solid is exist and then checks if it has the tag floor//
-     void OnCollisionEnter2D(Collision2D col)
-     {
-        if(col.gameObject.CompareTag("Floor")){
-            gc.isground = 1f; 
-            Debug.Log("floor");
-        }
-     }
-     void OnCollisionExit2D(Collision2D col)
-     {
-        if(col.gameObject.CompareTag("Floor")){
-            gc.isground = 0f; 
-        }
-     }
     
 }
