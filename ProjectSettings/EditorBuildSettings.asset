@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Levels/Level 4.unity
     guid: 97205674540483c4da53115e934edc03
   - enabled: 1
+    path: Assets/Levels/Level 5.unity
+    guid: 798fc16c3bd00564c8e4641e09342490
+  - enabled: 1
     path: Assets/Levels/Thanks 4 platingf.unity
     guid: 9c6f5c978bbf9b943a58b5061ab5708a
   - enabled: 1

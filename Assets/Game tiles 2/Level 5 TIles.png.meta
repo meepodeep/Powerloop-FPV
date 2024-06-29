@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: 222d5a7415e8553459c781430cdc1d6e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 5
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Level 5 TIles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 185
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab4caa160ac730409cb649be102f821
+      internalID: 80653417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 185
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd59652dfc49ff64b93110da290a754e
+      internalID: -1513277031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 185
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98905f9ed90dec340bf65d9b9e3d5349
+      internalID: -1297255695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 185
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e668ddd249fa8874a95c2a5f5a54d51e
+      internalID: -2105757659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 185
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 10}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: -7.5}
+        - {x: -7.5, y: -2.5}
+        - {x: 7.5, y: -2.5}
+        - {x: 7.5, y: -7.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf801d86fd329a9499d09dd2ed455ed6
+      internalID: 1853609160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 185
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 10}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: -7.5}
+        - {x: -7.5, y: -2.5}
+        - {x: 7.5, y: -2.5}
+        - {x: 7.5, y: -7.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b304adbecf89c458d51c60b667f113
+      internalID: -894593097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 185
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c37e95de85f8541883c37b1e865c30
+      internalID: -1159744990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 185
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d371a3d2b53ebbf4e8928acaa17190df
+      internalID: 1933371998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 185
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a917bf7f0a5f446bffc87a3108a47a
+      internalID: 1020053390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_9
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 185
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3918cb37a8dccbd4dac4e4a5976d5964
+      internalID: -1469970531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_10
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 185
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0.5, y: -7.5}
+        - {x: 0.5, y: 7.5}
+        - {x: 7.5, y: 7.5}
+        - {x: 7.5, y: -7.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7936653168d20bc40a96cafb5b412d92
+      internalID: -310996256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_11
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 185
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 8, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: -7.5}
+        - {x: -7.5, y: 7.5}
+        - {x: -0.5, y: 7.5}
+        - {x: -0.5, y: -7.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd86e2a963b9d44e9b465d93d1f9938
+      internalID: 933012733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 185
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1589ec16f287b47a1d6286a38d0253
+      internalID: 758097931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 13, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df246fa00e549ce4ba189c5ef1d7e4a9
+      internalID: -902869527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_14
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 170
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb9cb8c2a287294fbb017a152e5accc
+      internalID: 1197258323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_15
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 170
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae096b5c5f6619f40b0f41347538290e
+      internalID: 72802184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_16
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 170
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b552a24d47f4a954397c41ae566b56f1
+      internalID: 1358653225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 170
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0.5, y: -7.5}
+        - {x: 0.5, y: 7.5}
+        - {x: 7.5, y: 7.5}
+        - {x: 7.5, y: -7.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449f6b6268dfb184eac11b1b4975a8b3
+      internalID: -1966842880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_18
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 170
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 8, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: -7.5}
+        - {x: -7.5, y: 7.5}
+        - {x: -0.5, y: 7.5}
+        - {x: -0.5, y: -7.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566b2df7943ba22408e86f21aede96d6
+      internalID: 1570346050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 155
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0.5, y: -6.5}
+        - {x: 0.5, y: 7.5}
+        - {x: 7.5, y: 7.5}
+        - {x: 7.5, y: -6.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4429a016076afd447810a4c309b93d08
+      internalID: 156076039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_20
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 155
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 8, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: -7.5}
+        - {x: -7.5, y: 7.5}
+        - {x: -0.5, y: 7.5}
+        - {x: -0.5, y: -7.5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345288b1385f69a4fb8574e2b72a7f38
+      internalID: -129620140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_21
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 141
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 7, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 0}
+        - {x: -7.5, y: 7}
+        - {x: 7.5, y: 7}
+        - {x: 7.5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc83dd44b4107a44b813f9fde53c6258
+      internalID: -1019366914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_22
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 141
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 7, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 0}
+        - {x: -7.5, y: 7}
+        - {x: 7.5, y: 7}
+        - {x: 7.5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738dd1b6a4c93b0408999782be82e284
+      internalID: -408074302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Level 5 TIles_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 141
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 7, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -7.5, y: 0}
+        - {x: -7.5, y: 7}
+        - {x: 7.5, y: 7}
+        - {x: 7.5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba158cc96b52c6f4ba2694f69d4290ae
+      internalID: 1088048079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Level 5 TIles_0: 80653417
+      Level 5 TIles_1: -1513277031
+      Level 5 TIles_10: -310996256
+      Level 5 TIles_11: 933012733
+      Level 5 TIles_12: 758097931
+      Level 5 TIles_13: -902869527
+      Level 5 TIles_14: 1197258323
+      Level 5 TIles_15: 72802184
+      Level 5 TIles_16: 1358653225
+      Level 5 TIles_17: -1966842880
+      Level 5 TIles_18: 1570346050
+      Level 5 TIles_19: 156076039
+      Level 5 TIles_2: -1297255695
+      Level 5 TIles_20: -129620140
+      Level 5 TIles_21: -1019366914
+      Level 5 TIles_22: -408074302
+      Level 5 TIles_23: 1088048079
+      Level 5 TIles_3: -2105757659
+      Level 5 TIles_4: 1853609160
+      Level 5 TIles_5: -894593097
+      Level 5 TIles_6: -1159744990
+      Level 5 TIles_7: 1933371998
+      Level 5 TIles_8: 1020053390
+      Level 5 TIles_9: -1469970531
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
