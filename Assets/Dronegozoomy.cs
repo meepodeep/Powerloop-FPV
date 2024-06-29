@@ -76,7 +76,6 @@ public class Dronegozoomy : MonoBehaviour
             Flips();
         }
         roll = Input.GetAxisRaw("Horizontal");    
-        Debug.Log(water);
         
     }
 
@@ -176,6 +175,7 @@ public class Dronegozoomy : MonoBehaviour
      {
         if(col.gameObject.CompareTag("Floor")){
             isground = 1f; 
+            Debug.Log("floor");
         }
      }
      void OnCollisionExit2D(Collision2D col)
