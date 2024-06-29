@@ -15,6 +15,7 @@ public class Dronegozoomy : MonoBehaviour
     float firstTriggerY = 1;
     float secondTriggerX = 6;
     float secondTriggerY = 6;
+    float margin = 4;
     bool trigger1 = true;
     //public floats
     public float rotationSpeed = 2f;
@@ -121,14 +122,14 @@ public class Dronegozoomy : MonoBehaviour
     void CheckForSame(){
         if (trigger1 == true)
             {
-            firstTriggerX = Mathf.RoundToInt(rb.position.x);
-            firstTriggerY = Mathf.RoundToInt(rb.position.y);
+            firstTriggerX = rb.position.x;
+            firstTriggerY = rb.position.y;
             Debug.Log("firsty" + firstTriggerY);
             Debug.Log("firstx" + firstTriggerX);
             trigger1 = false;
             }else if (trigger1 == false) {
-                secondTriggerX = Mathf.RoundToInt(rb.position.x);
-                secondTriggerY = Mathf.RoundToInt(rb.position.y);
+                secondTriggerX = rb.position.x;
+                secondTriggerY = rb.position.y;
                 Debug.Log("secondy" + secondTriggerY);
                 Debug.Log("secondx" + secondTriggerX);
                 trigger1 = true;
@@ -151,17 +152,15 @@ public class Dronegozoomy : MonoBehaviour
         {
             CheckForSame();
             Debug.Log(rb.position); 
-            if (secondTriggerX != firstTriggerX || secondTriggerY != firstTriggerY){
-            if (gateCooldownTimer >= 1f)
-            {
+            if (secondTriggerX !>= firstTriggerX+margin || secondTriggerX !<= firstTriggerX-margin ^ secondTriggerY !>= firstTriggerY+margin || secondTriggerY !<= firstTriggerY-margin){
             bm.charge += .5f;
             rm.gateTrigger = 1;
             rm.fill = 0;
             gm.comboTime = gm.comboTime - gm.comboTime;
             gm.comboCount++;
             gateCooldownTimer = gateCooldownTimer - gateCooldownTimer;
-            }      
-            }
+            }    
+            
         }
          
     }
