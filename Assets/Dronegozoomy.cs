@@ -167,7 +167,7 @@ public class Dronegozoomy : MonoBehaviour
         {
             Debug.Log("Unsplish"); 
             water = 1f;
-           
+           StopCoroutine("Splish");
         }
          
     }
@@ -176,7 +176,7 @@ public class Dronegozoomy : MonoBehaviour
 
             IEnumerator Splish()
          {
-                 yield return new WaitForSeconds(2);
+            yield return new WaitForSeconds(2);
             if (water < 1f)
             {
                 Die();
